@@ -1,0 +1,17 @@
+[project]
+name = "mini-ddpm"
+version = "0.1.0"
+description = "Tiny DDPM experiments on toy data and MNIST."
+readme = "README.md"
+requires-python = ">=3.10.19"
+dependencies = [
+    "datasets",
+    "imageio",
+    "matplotlib",
+    "numpy",
+    "pillow",
+    "torch==2.8.0",
+]
+
+[tool.uv]
+package = false
